@@ -1,0 +1,68 @@
+* {
+    border: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    outline: name;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.con{
+    display: inline-block;
+    background: rgb(11, 146, 187);
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px green solid;
+
+    }
+    #husen{
+        background: white;
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+        outline: none;
+        font-size: 20px;
+        border: 3px red solid;
+        border-radius: 15px;
+    }
+    #hasan{
+        background: white;
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+        outline: none;
+        font-size: 20px;
+        border: 3px red solid;
+        border-radius: 15px;
+    }
+    #va{
+        background: white;
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+        outline: none;
+        font-size: 20px;
+        border:  3px red solid;
+        border-radius: 15px;
+    }
+    
+    #scan{
+        background: red;
+        width: 65px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-bottom: 1px;
+        border-radius: 15px;
+        color: wheat;
+    }
+    
+    #scan:active{
+        background: rgb(199, 47, 9);
+    }
